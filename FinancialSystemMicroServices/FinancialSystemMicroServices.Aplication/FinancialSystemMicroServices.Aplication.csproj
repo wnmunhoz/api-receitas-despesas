@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinancialSystemMicroServices.Domain\FinancialSystemMicroServices.Domain.csproj" />
+    <ProjectReference Include="..\FinancialSystemMicroServices.Infra\FinancialSystemMicroServices.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Services\CashFlows\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\CashFlows\" />
+  </ItemGroup>
+</Project>
