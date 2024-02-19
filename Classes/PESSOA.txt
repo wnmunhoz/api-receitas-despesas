@@ -1,0 +1,6 @@
+public class PESSOA
+{
+	public long ID {get;set;}
+	public DateTime DATAINICIO {get;set;}
+	public DateTime DATAFIM {get;set;}
+}

@@ -1,0 +1,7 @@
+public class CONTA
+{
+	public long Id {get;set;}
+	public DateTime DataInicio {get;set;}
+	public DateTime {get;set;}
+	public decimal Saldo {get;set;}
+}

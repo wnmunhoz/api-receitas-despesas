@@ -1,0 +1,10 @@
+public class USUARIO
+{
+	public long ID {get;set;}
+	public string LOGIN {get;set;}
+	public DateTime DATAINICIO {get;set;}
+	public DateTime DATAFIM {get;set;}
+	public long GRUPOID {get;set;}
+	public long PERFILID {get;set;}
+	public string ADMINPORTAL {get;set;}
+}

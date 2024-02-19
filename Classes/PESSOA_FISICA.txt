@@ -1,0 +1,18 @@
+public class PESSOA_FISICA
+{
+	public long ID {get;set;}
+	public string CPF {get;set;}
+	public string NOME {get;set;}
+	public string? NOMESOCIAL {get;set;}
+	public string? SOBRENOME {get;set;}
+	public DateTime? NASCIMENTO {get;set;}
+	public string? NATURALIDADE {get;set;}
+	public string? SEXO {get;set;}
+	public string? ESTADOCIVIL {get;set;}
+	public string? RG {get;set;}
+	public string? RGORGAOEMISSOR {get;set;}
+	public string RGUFEMITENTE {get;set;}
+	public long PESSOAID {get;set;}
+	public long PAISID {get;set;}
+	public long CARGOID {get;set;}
+}

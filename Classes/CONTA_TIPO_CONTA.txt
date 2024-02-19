@@ -1,0 +1,8 @@
+public class CONTA_TIPO_CONTA
+{
+	public DateTime DataInicio {get;set;}
+	public DateTime DataFim {get;set;}
+	public long CONTAId {get;set;}
+	public long TIPOCONTAId {get;set;}
+	public long Id {get;set;}
+}

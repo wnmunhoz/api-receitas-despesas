@@ -1,0 +1,7 @@
+public class CLIENTE
+{
+	public long Id {get;set;}
+	public DateTime DataInicio {get;set;}
+	public DateTime DataFim {get;set;}
+	public long TipoClienteId {get;set;}
+}

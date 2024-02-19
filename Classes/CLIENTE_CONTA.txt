@@ -1,0 +1,8 @@
+public class CLIENTE_CONTA
+{
+	public long Id {get;set;}
+	public long ClienteId {get;set;}
+	public long ContaId {get;set;}
+	public DateTime DataInicio {get;set;}
+	public DateTime DataFim {get;set;}
+}
